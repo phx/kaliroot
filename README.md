@@ -14,4 +14,4 @@ docker run --privileged --network host -itv /:/host kaliroot
 ```
 
 ## Install via DockerHub:
-`docker run --privileged -itv /:/host lphxl/kaliroot`
+`docker run --privileged --network host -itv /:/host lphxl/kaliroot`
